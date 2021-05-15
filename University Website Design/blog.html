@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+		
+		<title> University Website Design </title>
+		
+		<link rel = "stylesheet" href = "style.css">
+		
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+		
+		<link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		
+	</head>
+	
+	<body>
+	
+		<section class = "sub-header">
+		
+		<nav>
+		
+			<a href = "index.html"> <img src = "images/logo.png"> </a>
+			
+			<div class = "nav-links" id = "navLinks">
+			
+			<i class = "fa fa-times" onclick = "hideMenu()"></i>
+
+			
+				<ul>
+				
+					<li> <a href = "index.html"> HOME </a> </li>
+					<li> <a href = "about.html"> ABOUT </a> </li>
+					<li> <a href = "course.html"> COURSE </a> </li>
+					<li> <a href = "blog.html"> BLOG </a> </li>
+					<li> <a href = "contact.html"> CONTACT </a> </li>
+			
+				</ul>
+			
+			</div>
+			
+			<i class="fa fa-bars" onclick = "showMenu()"></i>
+		
+		</nav>
+		
+		<h1> Our Certificate & Online Program For 2021 </h1>
+		
+		</section>
+		
+
+		<!-- blog page content -->
+		
+		<section class="blog-content">
+		
+			<div class="row">
+			
+				<div class="blog-left">
+				
+					<img src="images/convo.jpg">
+					
+					<h2> Our Certificate & Online Program For 2021 </h2>
+					
+					<p> The mission of the Department of Computer Science and Engineering is to
+					offer the strong academic program needed produce well-educated students who 
+					can become productive members Computer Science and Engineering profession. </p>
+					
+					<br>
+					
+					<p> To complete the B. Sc. Engineering in Computer Science and Engineering
+					program at the International Islamic University Chittagong, normally takes
+					four academic years (i.e. 8 Semesters). Each academic year is divided into
+					2 Semesters (Spring February – July and Autumn Semester: August – January),
+					each having a duration of 15  weeks (5×15=75 working days). There shall be
+					a Midterm Examination after conducting 6 weeks classes. 9 Weeks of classes
+					will be conducted after Mid-term examination  after that Final Examination
+					will take place at the end  each semester. In order to graduate, total 163
+					credit hours has to be undertaken and completed by a student during 8 sem.
+					registering more number of courses in regular semesters, students may also 
+					complete their  graduation  studies  within at  least three academic years
+					(i.e. 6 Semesters) of regular studentship. </p>
+					
+					<br>
+					
+					<p> Graduates should utilize knowledge and skills to participate in Computer
+					Science and Engineering design and/or management processes. About five years
+					beyond graduation, CSE graduates should  participating effectively in design
+					processes and developing Computer Science and Engineering solutions within a
+					team setting. They are expected to be engaged  in management and leadership
+					roles for Computer Science and Engineering projects and to assume positions 
+					of greater responsibility to the profession and public. </p>
+					
+					<br>
+					
+					<p> International Islamic University Chittagong (IIUC) was established in 1995
+					by the Islamic University Chittagong Trust (IUCT) with a mission of developing
+					this university as an ideal institution of higher learning and research in the
+					private sector of  Bangladesh.  IUC Trust  and its  Syndicate are being run by 
+					academic scholars and leaders of international repute, consisting  of scholars
+					from home and abroad. </p>
+					
+					<div class="comment-box">
+					
+						<h3> Leave a Comment </h3>
+						
+						<form class="comment-form">
+						
+							<input type="text" placeholder="Enter Name">
+							<input type="email" placeholder="Enter Email">
+							
+							<textarea rows="5" placeholder="Your Comment"> </textarea>
+							<button type="submit" class="but red-btn"> Post Comment </button>
+						
+						</form>
+					
+					</div>
+				
+				</div>
+				
+				
+				<div class="blog-right">
+				
+					<h3> Post Catagories </h3>
+					
+					<div>
+					
+						<span> Business Analysis </span>
+						
+						<span> 21 </span>
+					
+					</div>
+					
+					<div>
+					
+						<span> Data Science </span>
+						
+						<span> 28 </span>
+					
+					</div>
+					
+					<div>
+					
+						<span> Machine Learning </span>
+						
+						<span> 15 </span>
+					
+					</div>
+					
+					<div>
+					
+						<span> Computer Science </span>
+						
+						<span> 24 </span>
+					
+					</div>
+					
+					<div>
+					
+						<span> Autocad </span>
+						
+						<span> 42 </span>
+					
+					</div>
+					
+					<div>
+					
+						<span> Journalism </span>
+						
+						<span> 22 </span>
+					
+					</div>
+					
+					<div>
+					
+						<span> Cvil Engineering </span>
+						
+						<span> 30 </span>
+					
+					</div>
+					
+					
+				
+				</div>
+			
+			</div>
+		
+		
+		</section>
+		
+
+		<!-- footer -->
+		
+		
+		
+		
+		<section class="footer">
+		
+			<h4> Our Courses </h4>
+			
+			<p> IIUC participated in different national and international contests, winning
+			prizes for obtaining prestigious positions. IIUC successfully organized <br> five
+			International Conferences on different important issues relating to education,
+			ethics and Islamization of knowledge </p>
+			
+			<div class="icons">
+			
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-linkedin"></i>
+				
+				<p> Developed by <i class="fa fa-heart-o"></i> Quazi Hasnat Irfan </p>
+			
+			</div>
+		
+		<section>
+		
+		<!--- javascript toggle menu --->
+		
+		<script>
+		
+			var navLinks = document.getElementById("navLinks");
+			
+			function showMenu(){
+			
+				navLinks.style.right = "0px";
+			}
+			
+			function hideMenu(){
+			
+				navLinks.style.right = "-200px";
+			}
+		
+		</script>
+	
+	</body>
+
+</html>
